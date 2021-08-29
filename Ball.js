@@ -6,7 +6,7 @@ class Ball{
 
         this.body = Bodies.circle(x,y,r, options);
         this.r = r
-        this.image = loadImage("Ball.png")
+        this.image = loadImage("ball.png")
         World.add(world, this.body)
     }
 
